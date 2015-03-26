@@ -1,6 +1,6 @@
 {
     "name": "puli/demo-application",
-    "description": "A Silex application demonstrating the use of the Puli resource manager.",
+    "description": "A demo application showcasing the use of the Puli resource manager with Silex, Twig and Gulp JS.",
     "license": "MIT",
     "authors": [
         {
