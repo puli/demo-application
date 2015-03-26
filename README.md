@@ -8,6 +8,9 @@ Run the following commands after cloning the repository:
 
 ```
 $ npm install
+$ gulp css
+$ gulp js
+$ gulp fonts
 $ composer install
 $ puli web install
 ```
