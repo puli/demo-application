@@ -1,10 +1,13 @@
 /.puli
 /node_modules
+/res/public/css
+/res/public/js
+/res/public/fonts
 /vendor
 /web/css
 /web/fonts
 /web/js
-/var/cache
-/var/logs
+/var/cache/*
+/var/logs/*
 !/var/cache/.gitkeep
 !/var/logs/.gitkeep
