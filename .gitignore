@@ -1,0 +1,10 @@
+/.puli
+/node_modules
+/vendor
+/web/css
+/web/fonts
+/web/js
+/var/cache
+/var/logs
+!/var/cache/.gitkeep
+!/var/logs/.gitkeep

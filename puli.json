@@ -1,0 +1,151 @@
+{
+    "version": "1.0",
+    "name": "puli/demo-application",
+    "resources": {
+        "/app": "res"
+    },
+    "bindings": {
+        "022aeb6f-8186-4db9-98aa-27025ef20e48": {
+            "query": "/app/public{,/**}",
+            "type": "puli/web-resource",
+            "parameters": {
+                "path": "/",
+                "target": "default"
+            }
+        }
+    },
+    "plugins": [
+        "Puli\\WebResourcePlugin\\Api\\WebResourcePlugin"
+    ],
+    "extra": {
+        "install-targets": {
+            "local": {
+                "installer": "symlink",
+                "location": "web",
+                "default": true
+            }
+        }
+    },
+    "packages": {
+        "justinrainbow/json-schema": {
+            "install-path": "vendor/justinrainbow/json-schema",
+            "installer": "composer"
+        },
+        "pimple/pimple": {
+            "install-path": "vendor/pimple/pimple",
+            "installer": "composer"
+        },
+        "psr/log": {
+            "install-path": "vendor/psr/log",
+            "installer": "composer"
+        },
+        "puli/cli": {
+            "install-path": "vendor/puli/cli",
+            "installer": "composer"
+        },
+        "puli/composer-plugin": {
+            "install-path": "vendor/puli/composer-plugin",
+            "installer": "composer"
+        },
+        "puli/discovery": {
+            "install-path": "vendor/puli/discovery",
+            "installer": "composer"
+        },
+        "puli/factory": {
+            "install-path": "vendor/puli/factory",
+            "installer": "composer"
+        },
+        "puli/manager": {
+            "install-path": "vendor/puli/manager",
+            "installer": "composer"
+        },
+        "puli/repository": {
+            "install-path": "vendor/puli/repository",
+            "installer": "composer"
+        },
+        "puli/twig-extension": {
+            "install-path": "vendor/puli/twig-extension",
+            "installer": "composer"
+        },
+        "puli/web-resource-plugin": {
+            "install-path": "vendor/puli/web-resource-plugin",
+            "installer": "composer"
+        },
+        "rhumsaa/uuid": {
+            "install-path": "vendor/rhumsaa/uuid",
+            "installer": "composer"
+        },
+        "seld/jsonlint": {
+            "install-path": "vendor/seld/jsonlint",
+            "installer": "composer"
+        },
+        "silex/silex": {
+            "install-path": "vendor/silex/silex",
+            "installer": "composer"
+        },
+        "symfony/console": {
+            "install-path": "vendor/symfony/console/Symfony/Component/Console",
+            "installer": "composer"
+        },
+        "symfony/debug": {
+            "install-path": "vendor/symfony/debug/Symfony/Component/Debug",
+            "installer": "composer"
+        },
+        "symfony/event-dispatcher": {
+            "install-path": "vendor/symfony/event-dispatcher/Symfony/Component/EventDispatcher",
+            "installer": "composer"
+        },
+        "symfony/filesystem": {
+            "install-path": "vendor/symfony/filesystem/Symfony/Component/Filesystem",
+            "installer": "composer"
+        },
+        "symfony/http-foundation": {
+            "install-path": "vendor/symfony/http-foundation/Symfony/Component/HttpFoundation",
+            "installer": "composer"
+        },
+        "symfony/http-kernel": {
+            "install-path": "vendor/symfony/http-kernel/Symfony/Component/HttpKernel",
+            "installer": "composer"
+        },
+        "symfony/process": {
+            "install-path": "vendor/symfony/process/Symfony/Component/Process",
+            "installer": "composer"
+        },
+        "symfony/routing": {
+            "install-path": "vendor/symfony/routing/Symfony/Component/Routing",
+            "installer": "composer"
+        },
+        "twig/twig": {
+            "install-path": "vendor/twig/twig",
+            "installer": "composer"
+        },
+        "webmozart/assert": {
+            "install-path": "vendor/webmozart/assert",
+            "installer": "composer"
+        },
+        "webmozart/console": {
+            "install-path": "vendor/webmozart/console",
+            "installer": "composer"
+        },
+        "webmozart/expression": {
+            "install-path": "vendor/webmozart/expression",
+            "installer": "composer"
+        },
+        "webmozart/glob": {
+            "install-path": "vendor/webmozart/glob",
+            "installer": "composer"
+        },
+        "webmozart/json": {
+            "install-path": "vendor/webmozart/json",
+            "installer": "composer"
+        },
+        "webmozart/key-value-store": {
+            "install-path": "vendor/webmozart/key-value-store",
+            "installer": "composer"
+        },
+        "webmozart/path-util": {
+            "install-path": "vendor/webmozart/path-util",
+            "installer": "composer"
+        }
+    }
+}

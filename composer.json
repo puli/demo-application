@@ -1,0 +1,22 @@
+{
+    "name": "puli/demo-application",
+    "description": "A Silex application demonstrating the use of the Puli resource manager.",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Bernhard Schussek",
+            "email": "bschussek@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": { "Puli\\DemoApplication\\": "src/" }
+    },
+    "require": {
+        "silex/silex": "~1.2",
+        "twig/twig": "~1.18",
+        "puli/cli": "~1.0",
+        "puli/web-resource-plugin": "~1.0",
+        "puli/twig-extension": "~1.0@dev"
+    },
+    "minimum-stability": "beta"
+}
