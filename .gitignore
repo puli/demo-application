@@ -6,6 +6,7 @@
 /vendor
 /web/css
 /web/fonts
+/web/images
 /web/js
 /var/cache/*
 /var/logs/*
