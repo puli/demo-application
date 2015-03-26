@@ -7,9 +7,9 @@ This repository contains a demo application showing how to use [Puli] in a
 Run the following commands after cloning the repository:
 
 ```
-npm install
-composer install
-puli web install
+$ npm install
+$ composer install
+$ puli web install
 ```
 
 [Puli]: http://puli.io
