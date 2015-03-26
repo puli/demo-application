@@ -21,7 +21,7 @@ Building your Own
 If you want to build this demo application from scratch, follow these steps:
 
 1. Create the basic directory layout
-2. Copy `composer.json` and `package.json` to the project
+2. Copy `composer.json`, `package.json` and `Gulpfile.js` to the project
 3. Run `npm install`
 4. Run `composer install`
 5. Put your SCSS files into `res/scss/`
