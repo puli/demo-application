@@ -8,9 +8,7 @@ Run the following commands after cloning the repository:
 
 ```
 $ npm install
-$ gulp css
-$ gulp js
-$ gulp fonts
+$ gulp
 $ composer install
 $ vendor/bin/puli web install
 ```
@@ -26,7 +24,7 @@ If you want to build this demo application from scratch, follow these steps:
 4. Run `composer install`
 5. Put your SCSS files into `res/scss/`
 6. Put your Javascript files into `res/js/`
-7. Run `gulp css`, `gulp js` and `gulp fonts`
+7. Run `gulp`
 8. Run `vendor/bin/puli map /app res` to map the `res` directory to the Puli path `/app`
 9. Run `vendor/bin/puli target add local web` to add the install target "local" for the directory `web`
 10. Run `vendor/bin/puli web add /app/public /` to map your assets to the install target.
