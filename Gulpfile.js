@@ -3,7 +3,7 @@ var gulp = require('gulp'),
     concat = require('gulp-concat'),
     minifyCSS = require('gulp-minify-css');
 
-gulp.task('default', function () {});
+gulp.task('default', ['js', 'css', 'fonts']);
 
 gulp.task('css', function () {
     gulp.src(['node_modules/bootstrap-sass/assets/stylesheets/_bootstrap.scss', 'res/scss/style.scss'])
