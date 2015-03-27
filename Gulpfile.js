@@ -1,7 +1,6 @@
 var gulp = require('gulp'),
     sass = require('gulp-sass'),
-    concat = require('gulp-concat'),
-    minifyCSS = require('gulp-minify-css');
+    concat = require('gulp-concat');
 
 gulp.task('default', function () {});
 
@@ -9,7 +8,6 @@ gulp.task('css', function () {
     gulp.src(['node_modules/bootstrap-sass/assets/stylesheets/_bootstrap.scss', 'res/scss/style.scss'])
         .pipe(concat('style.scss'))
         .pipe(sass())
-        .pipe(minifyCSS())
         .pipe(gulp.dest('res/public/css/'));
 });
 
