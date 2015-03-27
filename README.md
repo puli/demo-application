@@ -12,7 +12,7 @@ $ gulp css
 $ gulp js
 $ gulp fonts
 $ composer install
-$ puli web install
+$ vendor/bin/puli web install
 ```
 
 Building your Own
@@ -27,10 +27,10 @@ If you want to build this demo application from scratch, follow these steps:
 5. Put your SCSS files into `res/scss/`
 6. Put your Javascript files into `res/js/`
 7. Run `gulp css`, `gulp js` and `gulp fonts`
-8. Run `puli map /app res` to map the `res` directory to the Puli path `/app`
-9. Run `puli target add local web` to add the install target "local" for the directory `web`
-10. Run `puli web add /app/public /` to map your assets to the install target.
-11. Run `puli web install` to install the assets
+8. Run `vendor/bin/puli map /app res` to map the `res` directory to the Puli path `/app`
+9. Run `vendor/bin/puli target add local web` to add the install target "local" for the directory `web`
+10. Run `vendor/bin/puli web add /app/public /` to map your assets to the install target.
+11. Run `vendor/bin/puli web install` to install the assets
 
 [Puli]: http://puli.io
 [Silex]: http://silex.sensiolabs.org
