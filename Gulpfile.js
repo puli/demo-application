@@ -14,13 +14,11 @@ gulp.task('css', function () {
 });
 
 gulp.task('js', function () {
-    gulp.src('res/js/script.js')
-        .pipe(gulp.dest('res/public/js/'));
-
-    // Components
-    gulp.src('node_modules/jquery/dist/jquery.min.js')
-        .pipe(gulp.dest('res/public/js/'));
-    gulp.src('node_modules/bootstrap-sass/assets/javascripts/bootstrap.min.js')
+    gulp.src([
+            'res/js/script.js'
+            'node_modules/jquery/dist/jquery.min.js',
+            'node_modules/bootstrap-sass/assets/javascripts/bootstrap.min.js'
+        ])
         .pipe(gulp.dest('res/public/js/'));
 });
 
