@@ -26,3 +26,8 @@ gulp.task('fonts', function () {
     gulp.src('node_modules/bootstrap-sass/assets/fonts/bootstrap/*')
         .pipe(gulp.dest('res/public/fonts/'));
 });
+
+gulp.task('watch', function () {
+    gulp.watch('res/scss/*.scss', ['css']);
+    gulp.watch('res/js/*.js', ['js']);
+});
