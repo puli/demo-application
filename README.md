@@ -10,7 +10,7 @@ Run the following commands after cloning the repository:
 $ npm install
 $ gulp
 $ composer install
-$ vendor/bin/puli web install
+$ vendor/bin/puli asset install
 ```
 
 Building your Own
@@ -25,10 +25,11 @@ If you want to build this demo application from scratch, follow these steps:
 5. Put your SCSS files into `res/scss/`
 6. Put your Javascript files into `res/js/`
 7. Run `gulp`
-8. Run `vendor/bin/puli map /app res` to map the `res` directory to the Puli path `/app`
-9. Run `vendor/bin/puli target add local web` to add the install target "local" for the directory `web`
-10. Run `vendor/bin/puli asset map /app/public /` to map your assets to the install target.
-11. Run `vendor/bin/puli asset install` to install the assets
+8. Run `vendor/bin/puli plugin install Puli\\AssetPlugin\\Api\\AssetPlugin`
+9. Run `vendor/bin/puli map /app res` to map the Puli path `/app` to the `res` directory
+10. Run `vendor/bin/puli target add local web` to add the install target "local" for the directory `web`
+11. Run `vendor/bin/puli asset map /app/public /` to map your assets to the install target.
+12. Run `vendor/bin/puli asset install` to install the assets
 
 [Puli]: http://puli.io
 [Silex]: http://silex.sensiolabs.org
