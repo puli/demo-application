@@ -6,8 +6,8 @@
     },
     "bindings": {
         "022aeb6f-8186-4db9-98aa-27025ef20e48": {
-            "query": "/app/public{,/**}",
-            "type": "puli/web-resource",
+            "query": "/app/public{,/**/*}",
+            "type": "puli/asset-mapping",
             "parameters": {
                 "path": "/",
                 "target": "default"
@@ -15,7 +15,7 @@
         }
     },
     "plugins": [
-        "Puli\\WebResourcePlugin\\Api\\WebResourcePlugin"
+        "Puli\\AssetPlugin\\Api\\AssetPlugin"
     ],
     "extra": {
         "install-targets": {
@@ -37,6 +37,10 @@
         },
         "psr/log": {
             "install-path": "vendor/psr/log",
+            "installer": "composer"
+        },
+        "puli/asset-plugin": {
+            "install-path": "vendor/puli/asset-plugin",
             "installer": "composer"
         },
         "puli/cli": {
@@ -65,10 +69,6 @@
         },
         "puli/twig-extension": {
             "install-path": "vendor/puli/twig-extension",
-            "installer": "composer"
-        },
-        "puli/web-resource-plugin": {
-            "install-path": "vendor/puli/web-resource-plugin",
             "installer": "composer"
         },
         "rhumsaa/uuid": {

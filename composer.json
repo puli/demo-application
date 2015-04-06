@@ -15,8 +15,8 @@
         "silex/silex": "~1.2",
         "twig/twig": "~1.18",
         "puli/cli": "~1.0",
-        "puli/web-resource-plugin": "~1.0",
+        "puli/asset-plugin": "~1.0",
         "puli/twig-extension": "~1.0@dev"
     },
-    "minimum-stability": "beta"
+    "minimum-stability": "dev"
 }
