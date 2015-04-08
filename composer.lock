@@ -167,12 +167,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/puli/asset-plugin.git",
-                "reference": "e5ca012ee32576a0888b317517961de18707fc59"
+                "reference": "2b81d2e416722b044503dff6da72c5bc57c8d4f8"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/puli/asset-plugin/zipball/e5ca012ee32576a0888b317517961de18707fc59",
-                "reference": "e5ca012ee32576a0888b317517961de18707fc59",
+                "url": "https://api.github.com/repos/puli/asset-plugin/zipball/2b81d2e416722b044503dff6da72c5bc57c8d4f8",
+                "reference": "2b81d2e416722b044503dff6da72c5bc57c8d4f8",
                 "shasum": ""
             },
             "require": {
@@ -213,7 +213,7 @@
                 "resource",
                 "web"
             ],
-            "time": "2015-04-08 16:20:06"
+            "time": "2015-04-08 23:06:15"
         },
         {
             "name": "puli/cli",

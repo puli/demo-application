@@ -5,9 +5,9 @@
         "/app": "res"
     },
     "bindings": {
-        "022aeb6f-8186-4db9-98aa-27025ef20e48": {
+        "9cbff0b7-d019-4a39-8f82-26a08990fef2": {
             "query": "/app/public{,/**/*}",
-            "type": "puli/asset-mapping",
+            "type": "puli/asset",
             "parameters": {
                 "path": "/",
                 "target": "default"
