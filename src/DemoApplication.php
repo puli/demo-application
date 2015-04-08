@@ -3,8 +3,8 @@
 namespace Puli\DemoApplication;
 
 use Closure;
-use Puli\Extension\Twig\PuliExtension;
-use Puli\Extension\Twig\PuliTemplateLoader;
+use Puli\TwigExtension\PuliExtension;
+use Puli\TwigExtension\PuliTemplateLoader;
 use Silex\Application;
 use Silex\Provider\TwigServiceProvider;
 use Twig_Environment;
@@ -33,7 +33,7 @@ class DemoApplication extends Application
             return $app['puli.factory']->createDiscovery($app['puli.repository']);
         });
 
-        $this['puli.url_generator'] = $this->share(function (Application $app) {
+        $this['puli.asset_url_generator'] = $this->share(function (Application $app) {
             return $app['puli.factory']->createUrlGenerator($app['puli.discovery']);
         });
 
@@ -52,7 +52,7 @@ class DemoApplication extends Application
             $twig = $twig($app);
 
             /** @var Twig_Environment $twig */
-            $twig->addExtension(new PuliExtension($app['puli.repository'], $app['puli.url_generator']));
+            $twig->addExtension(new PuliExtension($app['puli.repository'], $app['puli.asset_url_generator']));
 
             return $twig;
         });

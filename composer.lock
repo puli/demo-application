@@ -167,12 +167,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/puli/asset-plugin.git",
-                "reference": "3bd8ba13e3a2a0fb26b5599c5b9efb273ad7f72d"
+                "reference": "e5ca012ee32576a0888b317517961de18707fc59"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/puli/asset-plugin/zipball/3bd8ba13e3a2a0fb26b5599c5b9efb273ad7f72d",
-                "reference": "3bd8ba13e3a2a0fb26b5599c5b9efb273ad7f72d",
+                "url": "https://api.github.com/repos/puli/asset-plugin/zipball/e5ca012ee32576a0888b317517961de18707fc59",
+                "reference": "e5ca012ee32576a0888b317517961de18707fc59",
                 "shasum": ""
             },
             "require": {
@@ -213,7 +213,7 @@
                 "resource",
                 "web"
             ],
-            "time": "2015-04-06 12:55:46"
+            "time": "2015-04-08 16:20:06"
         },
         {
             "name": "puli/cli",
@@ -221,12 +221,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/puli/cli.git",
-                "reference": "fc8f1d0ddc22a35b9349c1f11ee26a9922e49fd3"
+                "reference": "ce9dab59c3a4c882edadb13c525a23d727ec99a1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/puli/cli/zipball/fc8f1d0ddc22a35b9349c1f11ee26a9922e49fd3",
-                "reference": "fc8f1d0ddc22a35b9349c1f11ee26a9922e49fd3",
+                "url": "https://api.github.com/repos/puli/cli/zipball/ce9dab59c3a4c882edadb13c525a23d727ec99a1",
+                "reference": "ce9dab59c3a4c882edadb13c525a23d727ec99a1",
                 "shasum": ""
             },
             "require": {
@@ -267,7 +267,7 @@
             ],
             "description": "A Command Line Interface (CLI) for managing Puli repositories.",
             "homepage": "http://puli.io",
-            "time": "2015-03-19 18:41:51"
+            "time": "2015-04-08 16:23:01"
         },
         {
             "name": "puli/composer-plugin",
@@ -275,12 +275,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/puli/composer-plugin.git",
-                "reference": "1ea4274c21cd4bb8e6d715c1b620032241cf24b4"
+                "reference": "1d2185d5616f5f101c71cc045da729414cad1293"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/puli/composer-plugin/zipball/1ea4274c21cd4bb8e6d715c1b620032241cf24b4",
-                "reference": "1ea4274c21cd4bb8e6d715c1b620032241cf24b4",
+                "url": "https://api.github.com/repos/puli/composer-plugin/zipball/1d2185d5616f5f101c71cc045da729414cad1293",
+                "reference": "1d2185d5616f5f101c71cc045da729414cad1293",
                 "shasum": ""
             },
             "require": {
@@ -319,7 +319,7 @@
             ],
             "description": "Integrates Composer into the Puli package manager.",
             "homepage": "http://puli.io",
-            "time": "2015-03-19 18:33:15"
+            "time": "2015-04-08 14:13:52"
         },
         {
             "name": "puli/discovery",
@@ -327,12 +327,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/puli/discovery.git",
-                "reference": "fd1f9c81b3f6a5bfbd7469303026dfcd16517b1a"
+                "reference": "bb268bfb0a1aca1fa1cefcca3f4668f69a4da573"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/puli/discovery/zipball/fd1f9c81b3f6a5bfbd7469303026dfcd16517b1a",
-                "reference": "fd1f9c81b3f6a5bfbd7469303026dfcd16517b1a",
+                "url": "https://api.github.com/repos/puli/discovery/zipball/bb268bfb0a1aca1fa1cefcca3f4668f69a4da573",
+                "reference": "bb268bfb0a1aca1fa1cefcca3f4668f69a4da573",
                 "shasum": ""
             },
             "require": {
@@ -368,7 +368,7 @@
             ],
             "description": "Discovers Puli resources bound to predefined types.",
             "homepage": "http://puli.io",
-            "time": "2015-04-06 12:42:44"
+            "time": "2015-04-08 15:17:58"
         },
         {
             "name": "puli/factory",
@@ -420,12 +420,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/puli/manager.git",
-                "reference": "a408d0dd21d8ae44b4d98e1a7863d7a389843532"
+                "reference": "e38c20c78c7cde1d8854246cb9540409d86bf1d2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/puli/manager/zipball/a408d0dd21d8ae44b4d98e1a7863d7a389843532",
-                "reference": "a408d0dd21d8ae44b4d98e1a7863d7a389843532",
+                "url": "https://api.github.com/repos/puli/manager/zipball/e38c20c78c7cde1d8854246cb9540409d86bf1d2",
+                "reference": "e38c20c78c7cde1d8854246cb9540409d86bf1d2",
                 "shasum": ""
             },
             "require": {
@@ -470,7 +470,7 @@
             ],
             "description": "Generates Puli repositories from configured packages.",
             "homepage": "http://puli.io",
-            "time": "2015-03-19 18:27:41"
+            "time": "2015-04-08 15:34:39"
         },
         {
             "name": "puli/repository",
@@ -529,26 +529,26 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/puli/twig-extension.git",
-                "reference": "1b38d30851af63253af2fcb6e31b8b59b5ef778e"
+                "reference": "a3a97d358eca370012ce9139ebc2129593cab945"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/puli/twig-extension/zipball/1b38d30851af63253af2fcb6e31b8b59b5ef778e",
-                "reference": "1b38d30851af63253af2fcb6e31b8b59b5ef778e",
+                "url": "https://api.github.com/repos/puli/twig-extension/zipball/a3a97d358eca370012ce9139ebc2129593cab945",
+                "reference": "a3a97d358eca370012ce9139ebc2129593cab945",
                 "shasum": ""
             },
             "require": {
                 "php": ">=5.3.9",
-                "puli/repository": "~1.0",
+                "puli/repository": "1.0.*",
                 "twig/twig": "~1.0",
                 "webmozart/path-util": "~1.0"
             },
             "require-dev": {
-                "puli/web-resource-plugin": "~1.0",
+                "puli/asset-plugin": "~1.0",
                 "symfony/http-kernel": "~2.3"
             },
             "suggest": {
-                "puli/web-resource-plugin": "Enables the resource() function"
+                "puli/asset-plugin": "Enables the asset_url() function"
             },
             "type": "library",
             "extra": {
@@ -558,7 +558,7 @@
             },
             "autoload": {
                 "psr-4": {
-                    "Puli\\Extension\\Twig\\": "src/"
+                    "Puli\\TwigExtension\\": "src/"
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
@@ -573,7 +573,7 @@
             ],
             "description": "A Puli extension for the Twig templating system.",
             "homepage": "http://puli.io",
-            "time": "2015-03-23 16:14:57"
+            "time": "2015-04-08 17:02:42"
         },
         {
             "name": "rhumsaa/uuid",
@@ -776,12 +776,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/Console.git",
-                "reference": "fc9af388d87b911c01a2540a122803ebc5199f9d"
+                "reference": "252cd2fe99e7190eb919e8147464e069b1cba659"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/Console/zipball/fc9af388d87b911c01a2540a122803ebc5199f9d",
-                "reference": "fc9af388d87b911c01a2540a122803ebc5199f9d",
+                "url": "https://api.github.com/repos/symfony/Console/zipball/252cd2fe99e7190eb919e8147464e069b1cba659",
+                "reference": "252cd2fe99e7190eb919e8147464e069b1cba659",
                 "shasum": ""
             },
             "require": {
@@ -825,7 +825,7 @@
             ],
             "description": "Symfony Console Component",
             "homepage": "http://symfony.com",
-            "time": "2015-04-04 12:23:51"
+            "time": "2015-04-08 05:37:48"
         },
         {
             "name": "symfony/debug",
@@ -834,12 +834,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/Debug.git",
-                "reference": "10aa489e844c3aa9f589af2a043bdc2736156e3c"
+                "reference": "bbf75b3d76f927b319b86c5286367d91eff08f21"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/Debug/zipball/10aa489e844c3aa9f589af2a043bdc2736156e3c",
-                "reference": "10aa489e844c3aa9f589af2a043bdc2736156e3c",
+                "url": "https://api.github.com/repos/symfony/Debug/zipball/bbf75b3d76f927b319b86c5286367d91eff08f21",
+                "reference": "bbf75b3d76f927b319b86c5286367d91eff08f21",
                 "shasum": ""
             },
             "require": {
@@ -886,7 +886,7 @@
             ],
             "description": "Symfony Debug Component",
             "homepage": "http://symfony.com",
-            "time": "2015-04-03 15:33:45"
+            "time": "2015-04-08 05:28:20"
         },
         {
             "name": "symfony/event-dispatcher",
@@ -1058,12 +1058,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/HttpKernel.git",
-                "reference": "a1e364c8aad0f8ca33d6b5b9e5c52a500401c8cb"
+                "reference": "991f47834d45e6e8bcbeb8b24893280539e123fc"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/HttpKernel/zipball/a1e364c8aad0f8ca33d6b5b9e5c52a500401c8cb",
-                "reference": "a1e364c8aad0f8ca33d6b5b9e5c52a500401c8cb",
+                "url": "https://api.github.com/repos/symfony/HttpKernel/zipball/991f47834d45e6e8bcbeb8b24893280539e123fc",
+                "reference": "991f47834d45e6e8bcbeb8b24893280539e123fc",
                 "shasum": ""
             },
             "require": {
@@ -1073,10 +1073,13 @@
                 "symfony/event-dispatcher": "~2.5.9|~2.6,>=2.6.2|~3.0.0",
                 "symfony/http-foundation": "~2.5,>=2.5.4|~3.0.0"
             },
+            "conflict": {
+                "symfony/config": "<2.7"
+            },
             "require-dev": {
                 "symfony/browser-kit": "~2.3|~3.0.0",
                 "symfony/class-loader": "~2.1|~3.0.0",
-                "symfony/config": "~2.0,>=2.0.5|~3.0.0",
+                "symfony/config": "~2.7",
                 "symfony/console": "~2.3|~3.0.0",
                 "symfony/css-selector": "~2.0,>=2.0.5|~3.0.0",
                 "symfony/dependency-injection": "~2.2|~3.0.0",
@@ -1127,7 +1130,7 @@
             ],
             "description": "Symfony HttpKernel Component",
             "homepage": "http://symfony.com",
-            "time": "2015-04-05 10:03:21"
+            "time": "2015-04-08 05:21:35"
         },
         {
             "name": "symfony/process",
@@ -1186,22 +1189,25 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/Routing.git",
-                "reference": "c39bbd6ee2e95d927fa34bd393b518c49f028a49"
+                "reference": "d780a7bd614e0771066dd42ded8bdc54aab19f46"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/Routing/zipball/c39bbd6ee2e95d927fa34bd393b518c49f028a49",
-                "reference": "c39bbd6ee2e95d927fa34bd393b518c49f028a49",
+                "url": "https://api.github.com/repos/symfony/Routing/zipball/d780a7bd614e0771066dd42ded8bdc54aab19f46",
+                "reference": "d780a7bd614e0771066dd42ded8bdc54aab19f46",
                 "shasum": ""
             },
             "require": {
                 "php": ">=5.3.9"
             },
+            "conflict": {
+                "symfony/config": "<2.7"
+            },
             "require-dev": {
                 "doctrine/annotations": "~1.0",
                 "doctrine/common": "~2.2",
                 "psr/log": "~1.0",
-                "symfony/config": "~2.2|~3.0.0",
+                "symfony/config": "~2.7|~3.0.0",
                 "symfony/expression-language": "~2.4|~3.0.0",
                 "symfony/http-foundation": "~2.3|~3.0.0",
                 "symfony/phpunit-bridge": "~2.7|~3.0.0",
@@ -1246,7 +1252,7 @@
                 "uri",
                 "url"
             ],
-            "time": "2015-03-30 15:55:07"
+            "time": "2015-04-08 05:21:35"
         },
         {
             "name": "twig/twig",

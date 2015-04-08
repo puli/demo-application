@@ -6,7 +6,7 @@
 
     <title>Puli Demo Application</title>
 
-    <link rel="stylesheet" href="{{ resource_url('../public/css/style.css') }}">
+    <link rel="stylesheet" href="{{ asset_url('../public/css/style.css') }}">
 
     {% block stylesheets %}{% endblock %}
 
@@ -19,12 +19,12 @@
 <body>
 {% block content %}{% endblock %}
 
-<script src="{{ resource_url('../public/js/script.js') }}"></script>
+<script src="{{ asset_url('../public/js/script.js') }}"></script>
 
 <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
-<script>window.jQuery || document.write('<script src="{{ resource_url('../public/js/jquery.min.js') }}"><\/script>')</script>
+<script>window.jQuery || document.write('<script src="{{ asset_url('../public/js/jquery.min.js') }}"><\/script>')</script>
 
-<script src="{{ resource_url('../public/js/bootstrap.min.js') }}"></script>
+<script src="{{ asset_url('../public/js/bootstrap.min.js') }}"></script>
 
 {% block javascripts %}{% endblock %}
 </body>
