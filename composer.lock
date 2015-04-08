@@ -221,12 +221,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/puli/cli.git",
-                "reference": "ce9dab59c3a4c882edadb13c525a23d727ec99a1"
+                "reference": "3ea2340b49b861a02d1c7f298a7601b0c3831cf1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/puli/cli/zipball/ce9dab59c3a4c882edadb13c525a23d727ec99a1",
-                "reference": "ce9dab59c3a4c882edadb13c525a23d727ec99a1",
+                "url": "https://api.github.com/repos/puli/cli/zipball/3ea2340b49b861a02d1c7f298a7601b0c3831cf1",
+                "reference": "3ea2340b49b861a02d1c7f298a7601b0c3831cf1",
                 "shasum": ""
             },
             "require": {
@@ -267,7 +267,7 @@
             ],
             "description": "A Command Line Interface (CLI) for managing Puli repositories.",
             "homepage": "http://puli.io",
-            "time": "2015-04-08 16:23:01"
+            "time": "2015-04-08 21:41:21"
         },
         {
             "name": "puli/composer-plugin",
@@ -420,12 +420,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/puli/manager.git",
-                "reference": "e38c20c78c7cde1d8854246cb9540409d86bf1d2"
+                "reference": "a249c7a36e534c0b047ca5d4ad2cdeb2ee911d14"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/puli/manager/zipball/e38c20c78c7cde1d8854246cb9540409d86bf1d2",
-                "reference": "e38c20c78c7cde1d8854246cb9540409d86bf1d2",
+                "url": "https://api.github.com/repos/puli/manager/zipball/a249c7a36e534c0b047ca5d4ad2cdeb2ee911d14",
+                "reference": "a249c7a36e534c0b047ca5d4ad2cdeb2ee911d14",
                 "shasum": ""
             },
             "require": {
@@ -470,7 +470,7 @@
             ],
             "description": "Generates Puli repositories from configured packages.",
             "homepage": "http://puli.io",
-            "time": "2015-04-08 15:34:39"
+            "time": "2015-04-08 21:01:28"
         },
         {
             "name": "puli/repository",
