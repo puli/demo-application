@@ -16,7 +16,7 @@
         "twig/twig": "~1.18",
         "puli/cli": "~1.0",
         "puli/asset-plugin": "~1.0",
-        "puli/twig-extension": "~1.0@dev"
+        "puli/twig-extension": "~1.0"
     },
-    "minimum-stability": "dev"
+    "minimum-stability": "beta"
 }
