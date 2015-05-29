@@ -5,46 +5,30 @@
         "/app": "res"
     },
     "bindings": {
-        "9cbff0b7-d019-4a39-8f82-26a08990fef2": {
+        "c96beab7-fe49-4447-93d7-cfabc97cfa52": {
             "query": "/app/public{,/**/*}",
-            "type": "puli/asset",
+            "type": "puli/public-resource",
             "parameters": {
                 "path": "/",
-                "target": "default"
+                "server": "localhost"
             }
         }
     },
-    "plugins": [
-        "Puli\\AssetPlugin\\Api\\AssetPlugin"
-    ],
     "extra": {
-        "install-targets": {
-            "local": {
+        "servers": {
+            "localhost": {
                 "installer": "symlink",
-                "location": "web",
-                "default": true
+                "document-root": "web"
             }
         }
     },
     "packages": {
-        "justinrainbow/json-schema": {
-            "install-path": "vendor/justinrainbow/json-schema",
-            "installer": "composer"
-        },
         "pimple/pimple": {
             "install-path": "vendor/pimple/pimple",
             "installer": "composer"
         },
         "psr/log": {
             "install-path": "vendor/psr/log",
-            "installer": "composer"
-        },
-        "puli/asset-plugin": {
-            "install-path": "vendor/puli/asset-plugin",
-            "installer": "composer"
-        },
-        "puli/cli": {
-            "install-path": "vendor/puli/cli",
             "installer": "composer"
         },
         "puli/composer-plugin": {
@@ -55,14 +39,6 @@
             "install-path": "vendor/puli/discovery",
             "installer": "composer"
         },
-        "puli/factory": {
-            "install-path": "vendor/puli/factory",
-            "installer": "composer"
-        },
-        "puli/manager": {
-            "install-path": "vendor/puli/manager",
-            "installer": "composer"
-        },
         "puli/repository": {
             "install-path": "vendor/puli/repository",
             "installer": "composer"
@@ -71,24 +47,16 @@
             "install-path": "vendor/puli/twig-extension",
             "installer": "composer"
         },
-        "rhumsaa/uuid": {
-            "install-path": "vendor/rhumsaa/uuid",
-            "installer": "composer"
-        },
-        "seld/jsonlint": {
-            "install-path": "vendor/seld/jsonlint",
+        "puli/url-generator": {
+            "install-path": "vendor/puli/url-generator",
             "installer": "composer"
         },
         "silex/silex": {
             "install-path": "vendor/silex/silex",
             "installer": "composer"
         },
-        "symfony/console": {
-            "install-path": "vendor/symfony/console/Symfony/Component/Console",
-            "installer": "composer"
-        },
         "symfony/debug": {
-            "install-path": "vendor/symfony/debug/Symfony/Component/Debug",
+            "install-path": "vendor/symfony/debug",
             "installer": "composer"
         },
         "symfony/event-dispatcher": {
@@ -96,7 +64,7 @@
             "installer": "composer"
         },
         "symfony/filesystem": {
-            "install-path": "vendor/symfony/filesystem/Symfony/Component/Filesystem",
+            "install-path": "vendor/symfony/filesystem",
             "installer": "composer"
         },
         "symfony/http-foundation": {
@@ -108,7 +76,7 @@
             "installer": "composer"
         },
         "symfony/process": {
-            "install-path": "vendor/symfony/process/Symfony/Component/Process",
+            "install-path": "vendor/symfony/process",
             "installer": "composer"
         },
         "symfony/routing": {
@@ -123,20 +91,8 @@
             "install-path": "vendor/webmozart/assert",
             "installer": "composer"
         },
-        "webmozart/console": {
-            "install-path": "vendor/webmozart/console",
-            "installer": "composer"
-        },
-        "webmozart/expression": {
-            "install-path": "vendor/webmozart/expression",
-            "installer": "composer"
-        },
         "webmozart/glob": {
             "install-path": "vendor/webmozart/glob",
-            "installer": "composer"
-        },
-        "webmozart/json": {
-            "install-path": "vendor/webmozart/json",
             "installer": "composer"
         },
         "webmozart/key-value-store": {
