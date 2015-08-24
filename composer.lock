@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "0893a89a9b427a21aba96f9a4d4357f3",
+    "hash": "b9723091ade91b677735a1553e6fd0ca",
     "packages": [
         {
             "name": "pimple/pimple",
@@ -92,32 +92,33 @@
         },
         {
             "name": "puli/composer-plugin",
-            "version": "1.0.0-beta6",
+            "version": "1.0.0-beta7",
             "source": {
                 "type": "git",
                 "url": "https://github.com/puli/composer-plugin.git",
-                "reference": "5854048a686ab1bdec602f43dc5ea7a65156554e"
+                "reference": "0dff06ecc96d8d281b78b85558a5208cc39dab5a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/puli/composer-plugin/zipball/5854048a686ab1bdec602f43dc5ea7a65156554e",
-                "reference": "5854048a686ab1bdec602f43dc5ea7a65156554e",
+                "url": "https://api.github.com/repos/puli/composer-plugin/zipball/0dff06ecc96d8d281b78b85558a5208cc39dab5a",
+                "reference": "0dff06ecc96d8d281b78b85558a5208cc39dab5a",
                 "shasum": ""
             },
             "require": {
                 "composer-plugin-api": "^1.0",
-                "puli/discovery": "^1.0@beta",
-                "puli/repository": "^1.0@beta",
-                "puli/url-generator": "^1.0@beta",
+                "puli/discovery": "^1.0-beta7",
+                "puli/repository": "^1.0-beta7",
+                "puli/url-generator": "^1.0-beta2",
                 "symfony/process": "^2.3",
                 "webmozart/assert": "^1.0",
-                "webmozart/key-value-store": "^1.0@beta",
-                "webmozart/path-util": "^2.0"
+                "webmozart/key-value-store": "^1.0-beta5",
+                "webmozart/path-util": "^2.2"
             },
             "require-dev": {
-                "composer/composer": "^1.0@dev",
+                "composer/composer": "^1.0-alpha10",
                 "phpunit/phpunit": "^4.6",
-                "symfony/filesystem": "^2.3"
+                "symfony/filesystem": "^2.3",
+                "webmozart/glob": "^3.1"
             },
             "type": "composer-plugin",
             "extra": {
@@ -143,32 +144,34 @@
             ],
             "description": "Integrates Composer into the Puli package manager.",
             "homepage": "http://puli.io",
-            "time": "2015-08-12 13:55:31"
+            "time": "2015-08-24 20:29:45"
         },
         {
             "name": "puli/discovery",
-            "version": "1.0.0-beta6",
+            "version": "1.0.0-beta7",
             "source": {
                 "type": "git",
                 "url": "https://github.com/puli/discovery.git",
-                "reference": "37f7bbe3980410893e3b6e9c5a86a5a4c38fb02a"
+                "reference": "5e61c5d6c4d6f49ac24ae490e6a180b74440e729"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/puli/discovery/zipball/37f7bbe3980410893e3b6e9c5a86a5a4c38fb02a",
-                "reference": "37f7bbe3980410893e3b6e9c5a86a5a4c38fb02a",
+                "url": "https://api.github.com/repos/puli/discovery/zipball/5e61c5d6c4d6f49ac24ae490e6a180b74440e729",
+                "reference": "5e61c5d6c4d6f49ac24ae490e6a180b74440e729",
                 "shasum": ""
             },
             "require": {
                 "php": ">=5.3.9",
                 "puli/repository": "^1.0",
                 "webmozart/assert": "^1.0",
-                "webmozart/glob": ">=2.0,<4.0",
-                "webmozart/key-value-store": "^1.0"
+                "webmozart/glob": ">=2.0,<4.0"
             },
             "require-dev": {
                 "phpunit/phpunit": "^4.6",
-                "symfony/filesystem": "~2.5"
+                "webmozart/key-value-store": "^1.0.0-beta5"
+            },
+            "suggest": {
+                "webmozart/key-value-store": "to use the KeyValueStoreDiscovery"
             },
             "type": "library",
             "extra": {
@@ -193,41 +196,41 @@
             ],
             "description": "Discovers Puli resources bound to predefined types.",
             "homepage": "http://puli.io",
-            "time": "2015-08-12 11:58:29"
+            "time": "2015-08-24 19:50:55"
         },
         {
             "name": "puli/repository",
-            "version": "1.0.0-beta6",
+            "version": "1.0.0-beta7",
             "source": {
                 "type": "git",
                 "url": "https://github.com/puli/repository.git",
-                "reference": "4137bc4c8063e5844cd231c947d4a6a8136306c7"
+                "reference": "d4871bc9911f10d7e78aa01ee875a525dfd413cf"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/puli/repository/zipball/4137bc4c8063e5844cd231c947d4a6a8136306c7",
-                "reference": "4137bc4c8063e5844cd231c947d4a6a8136306c7",
+                "url": "https://api.github.com/repos/puli/repository/zipball/d4871bc9911f10d7e78aa01ee875a525dfd413cf",
+                "reference": "d4871bc9911f10d7e78aa01ee875a525dfd413cf",
                 "shasum": ""
             },
             "require": {
                 "php": ">=5.3.9",
-                "webmozart/assert": "~1.0",
-                "webmozart/glob": "~3.0",
-                "webmozart/path-util": "~2.0"
+                "webmozart/assert": "^1.0",
+                "webmozart/glob": "^3.1",
+                "webmozart/path-util": "^2.2"
             },
             "require-dev": {
                 "phpunit/phpunit": "^4.6",
-                "symfony/filesystem": "~2.0",
-                "webmozart/key-value-store": "~1.0@beta"
+                "symfony/filesystem": "^2.0",
+                "webmozart/key-value-store": "^1.0.0-beta5"
             },
             "suggest": {
                 "symfony/filesystem": "to use the FilesystemRepository",
-                "webmozart/key-value-store": "~1.0@beta"
+                "webmozart/key-value-store": "to use the path mapping repositories"
             },
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "1.0-dev"
+                    "dev-master": "1.1-dev"
                 }
             },
             "autoload": {
@@ -247,26 +250,26 @@
             ],
             "description": "A filesystem-like repository for storing arbitrary resources.",
             "homepage": "http://puli.io",
-            "time": "2015-08-12 11:54:29"
+            "time": "2015-08-24 19:46:06"
         },
         {
             "name": "puli/twig-extension",
-            "version": "1.0.0-beta5",
+            "version": "1.0.0-beta6",
             "source": {
                 "type": "git",
                 "url": "https://github.com/puli/twig-extension.git",
-                "reference": "051f7a8f4561b8b2a9df0e435862f28f5def152a"
+                "reference": "8f72fa0b47ada12509833d83e72ce95896db54a6"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/puli/twig-extension/zipball/051f7a8f4561b8b2a9df0e435862f28f5def152a",
-                "reference": "051f7a8f4561b8b2a9df0e435862f28f5def152a",
+                "url": "https://api.github.com/repos/puli/twig-extension/zipball/8f72fa0b47ada12509833d83e72ce95896db54a6",
+                "reference": "8f72fa0b47ada12509833d83e72ce95896db54a6",
                 "shasum": ""
             },
             "require": {
                 "php": ">=5.3.9",
-                "puli/repository": "^1.0",
-                "twig/twig": "^1.0",
+                "puli/repository": "^1.0-beta7",
+                "twig/twig": "^1.20|^2.0",
                 "webmozart/path-util": "^2.0"
             },
             "require-dev": {
@@ -300,7 +303,7 @@
             ],
             "description": "A Puli extension for the Twig templating system.",
             "homepage": "http://puli.io",
-            "time": "2015-08-12 14:12:06"
+            "time": "2015-08-24 20:24:20"
         },
         {
             "name": "puli/url-generator",
@@ -1118,7 +1121,13 @@
     "packages-dev": [],
     "aliases": [],
     "minimum-stability": "beta",
-    "stability-flags": [],
+    "stability-flags": {
+        "puli/composer-plugin": 10,
+        "puli/repository": 10,
+        "puli/discovery": 10,
+        "puli/url-generator": 10,
+        "puli/twig-extension": 10
+    },
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": [],
