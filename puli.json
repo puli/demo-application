@@ -60,7 +60,7 @@
             "installer": "composer"
         },
         "symfony/event-dispatcher": {
-            "install-path": "vendor/symfony/event-dispatcher/Symfony/Component/EventDispatcher",
+            "install-path": "vendor/symfony/event-dispatcher",
             "installer": "composer"
         },
         "symfony/filesystem": {
@@ -68,11 +68,11 @@
             "installer": "composer"
         },
         "symfony/http-foundation": {
-            "install-path": "vendor/symfony/http-foundation/Symfony/Component/HttpFoundation",
+            "install-path": "vendor/symfony/http-foundation",
             "installer": "composer"
         },
         "symfony/http-kernel": {
-            "install-path": "vendor/symfony/http-kernel/Symfony/Component/HttpKernel",
+            "install-path": "vendor/symfony/http-kernel",
             "installer": "composer"
         },
         "symfony/process": {
@@ -80,7 +80,7 @@
             "installer": "composer"
         },
         "symfony/routing": {
-            "install-path": "vendor/symfony/routing/Symfony/Component/Routing",
+            "install-path": "vendor/symfony/routing",
             "installer": "composer"
         },
         "twig/twig": {
