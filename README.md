@@ -10,7 +10,7 @@ Run the following commands after cloning the repository:
 $ npm install
 $ gulp
 $ composer install
-$ vendor/bin/puli asset install
+$ vendor/bin/puli publish --install
 ```
 
 Building your Own
