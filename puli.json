@@ -6,6 +6,7 @@
     },
     "bindings": {
         "c96beab7-fe49-4447-93d7-cfabc97cfa52": {
+            "_class": "Puli\\Discovery\\Binding\\ResourceBinding",
             "query": "/app/public{,/**/*}",
             "type": "puli/public-resource",
             "parameters": {
@@ -23,6 +24,10 @@
         }
     },
     "packages": {
+        "justinrainbow/json-schema": {
+            "install-path": "vendor/justinrainbow/json-schema",
+            "installer": "composer"
+        },
         "pimple/pimple": {
             "install-path": "vendor/pimple/pimple",
             "installer": "composer"
@@ -49,6 +54,14 @@
         },
         "puli/url-generator": {
             "install-path": "vendor/puli/url-generator",
+            "installer": "composer"
+        },
+        "ramsey/uuid": {
+            "install-path": "vendor/ramsey/uuid",
+            "installer": "composer"
+        },
+        "seld/jsonlint": {
+            "install-path": "vendor/seld/jsonlint",
             "installer": "composer"
         },
         "silex/silex": {
@@ -91,12 +104,16 @@
             "install-path": "vendor/webmozart/assert",
             "installer": "composer"
         },
+        "webmozart/expression": {
+            "install-path": "vendor/webmozart/expression",
+            "installer": "composer"
+        },
         "webmozart/glob": {
             "install-path": "vendor/webmozart/glob",
             "installer": "composer"
         },
-        "webmozart/key-value-store": {
-            "install-path": "vendor/webmozart/key-value-store",
+        "webmozart/json": {
+            "install-path": "vendor/webmozart/json",
             "installer": "composer"
         },
         "webmozart/path-util": {
